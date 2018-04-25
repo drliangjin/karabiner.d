@@ -41,10 +41,6 @@
                             },
 ```
 - Meta + u
-
-
-- Ctrl + w
-- Ctrl + y
 - Ctrl + j
 ```
 "description": "Change control+j to return",
@@ -68,5 +64,4 @@
                             },
 ```
 - Ctrl + a
-
 - Ctrl + e
