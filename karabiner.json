@@ -135,7 +135,7 @@
                         ]
                     },
                     {
-                        "description": "Left Ctrl to Hyper, or CapsLock if pressed alone",
+                        "description": "Left Ctrl to Left Hyper, or CapsLock if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -165,6 +165,37 @@
                             }
                         ]
                     },
+                    {
+                        "description": "Right Ctrl to Right Hyper, or CapsLock if pressed alone",
+                        "manipulators": [
+                            {
+				"type": "basic",				    
+                                "from": {
+                                    "key_code": "right_control",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_shift",
+					"modifiers": [
+					    "right_command",
+					    "right_control",
+					    "right_option"
+					]
+                                    }
+                                ],
+				"to_if_alone": [
+				    {
+					"key_code": "caps_lock"
+				    }
+				]
+                            }
+                        ]
+                    },			
 		    {
 		        "description": "Emacs key bindings [C-x C-? keys]",
 		        "manipulators": [
