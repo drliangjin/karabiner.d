@@ -722,7 +722,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_forward"
+                                        "key_code": "delete_forward",
 					"modifiers": [
 					    "option"
 					]
@@ -787,7 +787,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_or_backspace"
+                                        "key_code": "delete_or_backspace",
 					"modifiers": [
 					    "option"
 					]					    
@@ -852,7 +852,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow"
+                                        "key_code": "left_arrow",
 					"modifiers": [
 					    "option"
 					]					    
@@ -917,7 +917,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow"
+                                        "key_code": "right_arrow",
 					"modifiers": [
 					    "option"
 					]					    
@@ -982,7 +982,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "down_arrow"
+                                        "key_code": "down_arrow",
 					"modifiers": [
 					    "option"
 					]					    
@@ -1047,7 +1047,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "up_arrow"
+                                        "key_code": "up_arrow",
 					"modifiers": [
 					    "option"
 					]					    
