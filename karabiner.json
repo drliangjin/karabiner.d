@@ -166,7 +166,7 @@
                         ]
                     },
 		    {
-		        "description": "Emacs key bindings [C-x keys]",
+		        "description": "Emacs key bindings [C-x C-? keys]",
 		        "manipulators": [
 			    {
 			        "type": "basic",
@@ -350,7 +350,7 @@
 		        ]
 		    },			
                     {
-                        "description": "Emacs key bindings [Ctrl + Keys]",
+                        "description": "Emacs key bindings [C-? Keys]",
                         "manipulators": [
                             {		    
                                 "type": "basic",
@@ -1108,7 +1108,7 @@
                         ]
                     },
 		    {
-                        "description": "Emacs key bindings [Meta + Keys]",
+                        "description": "Emacs key bindings [M-? Keys]",
                         "manipulators": [
                             {
                                 "type": "basic",
