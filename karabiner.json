@@ -356,7 +356,6 @@
 			        "type": "basic",
 			        "from": {
 			            "key_code": "k"
-			            }
 			        },
 			        "to": [
 			            {
@@ -378,7 +377,6 @@
 			        "type": "basic",
 			        "from": {
 			            "key_code": "b"
-			            }
 			        },
 			        "to": [
 			            {
