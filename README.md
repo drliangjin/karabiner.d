@@ -15,12 +15,20 @@ ln -s ~/.karabiner.d ~/.config/karabiner
 ```
 
 ## Key Map
+#### Modifiers
+| From             | To               | Press Alone | Device         |
+|------------------|------------------|-------------|----------------|
+| Left Command     | Left Option/Alt  | -           | Apple Keyboard |
+| Left Option/Alt  | Left Command     | -           | Apple Keyboard |
+| Right Command    | Right Option/Alt | -           | Apple Keyboard |
+| Right Option/Alt | Right Command    |             | Apple Keyboard |
+| Caps Lock        | Left Ctrl        | ESC         | -              |
+| Enter            | Right Ctrl       | Enter       | -              |
+| Left Shift       | Left Shift       | (           | -              |
+| Right Shift      | Right Shift      | )           | -              |
+| Left Ctrl        | Left Hyper       | Caps Lock   | -              |
+| Right Ctrl       | Right Hyper      | Caps Lock   | -              |
 
-| From             | To               | Condition      |
-|:-----------------|:-----------------|:---------------|
-| Left Command     | Left Option/Alt  | Apple Keyboard |
-| Left Option/Alt  | Left Command     | Apple Keyboard |
-| Right Command    | Right Option/Alt | Apple Keyboard |
-| Right Option/Alt | Right Command    | Apple Keyboard |
+#### Unix-like
 
 ## Resources
