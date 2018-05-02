@@ -21,6 +21,130 @@
                 },
                 "rules": [
                     {
+                        "description": "Left Cmd to Left Alt, if Apple Keyboard",
+                        "manipulators": [
+                            {
+				"type": "basic",
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_option"
+                                    }
+                                ]
+				"conditions": [
+				    {
+				        "type": "device_if",
+				        "identifiers": [
+				            {
+				                "vendor_id": 1452
+			                    }
+				        ]
+		                    }
+			        ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Left Alt to Left Cmd, if Apple Keyboard",
+                        "manipulators": [
+                            {
+				"type": "basic",
+                                "from": {
+                                    "key_code": "left_option",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_command"
+                                    }
+                                ]
+				"conditions": [
+				    {
+				        "type": "device_if",
+				        "identifiers": [
+				            {
+				                "vendor_id": 1452
+			                    }
+				        ]
+		                    }
+			        ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Right Cmd to Right Alt, if Apple Keyboard",
+                        "manipulators": [
+                            {
+				"type": "basic",
+                                "from": {
+                                    "key_code": "right_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_option"
+                                    }
+                                ]
+				"conditions": [
+				    {
+				        "type": "device_if",
+				        "identifiers": [
+				            {
+				                "vendor_id": 1452
+			                    }
+				        ]
+		                    }
+			        ]
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Right Alt to Right Cmd, if Apple Keyboard",
+                        "manipulators": [
+                            {
+				"type": "basic",
+                                "from": {
+                                    "key_code": "right_option",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_command"
+                                    }
+                                ]
+				"conditions": [
+				    {
+				        "type": "device_if",
+				        "identifiers": [
+				            {
+				                "vendor_id": 1452
+			                    }
+				        ]
+		                    }
+			        ]
+                            }
+                        ]
+                    },
+                    {
                         "description": "CapsLock to Left Ctrl, or ESC if pressed alone",
                         "manipulators": [
                             {
