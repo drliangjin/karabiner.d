@@ -7,11 +7,11 @@ This is my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) configuration.
 
 - Clone the repo:
 ```bash
-git clone https://github.com/drliangjin/oh-my-karabiner.git ~/.oh-my-karabiner
+git clone https://github.com/drliangjin/oh-my-karabiner.git ~/.karabiner.d
 ```
 - Symlink the configuration file:
 ```bash
-ln -s ~/.oh-my-karabiner/karabiner ~/.config
+ln -s ~/.karabiner.d ~/.config/karabiner
 ```
 
 ## Key Map
