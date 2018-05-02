@@ -19,6 +19,7 @@
                     "basic.to_if_alone_timeout_milliseconds": 1000,
                     "basic.to_if_held_down_threshold_milliseconds": 500
                 },
+		"title": "Personal rules (@drliangjin)",
                 "rules": [
                     {
                         "description": "Left Cmd to Left Alt, if Apple Keyboard",
