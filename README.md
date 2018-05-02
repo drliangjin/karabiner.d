@@ -4,6 +4,10 @@ by Dr Liang Jin
 This is my [Karabiner-Elements](https://pqrs.org/osx/karabiner/) configuration.
 
 ## Quick Start
+```bash
+git clone
+```
+
 
 ## Key Map
 
