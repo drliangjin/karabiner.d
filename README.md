@@ -16,4 +16,11 @@ ln -s ~/.karabiner.d ~/.config/karabiner
 
 ## Key Map
 
+| From             | To               | Condition      |
+|:-----------------|:-----------------|:---------------|
+| Left Command     | Left Option/Alt  | Apple Keyboard |
+| Left Option/Alt  | Left Command     | Apple Keyboard |
+| Right Command    | Right Option/Alt | Apple Keyboard |
+| Right Option/Alt | Right Command    | Apple Keyboard |
+
 ## Resources
