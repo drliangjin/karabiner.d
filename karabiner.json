@@ -37,7 +37,7 @@
                                     {
                                         "key_code": "left_option"
                                     }
-                                ]
+                                ],
 				"conditions": [
 				    {
 				        "type": "device_if",
@@ -68,7 +68,7 @@
                                     {
                                         "key_code": "left_command"
                                     }
-                                ]
+                                ],
 				"conditions": [
 				    {
 				        "type": "device_if",
@@ -99,7 +99,7 @@
                                     {
                                         "key_code": "right_option"
                                     }
-                                ]
+                                ],
 				"conditions": [
 				    {
 				        "type": "device_if",
@@ -130,7 +130,7 @@
                                     {
                                         "key_code": "right_command"
                                     }
-                                ]
+                                ],
 				"conditions": [
 				    {
 				        "type": "device_if",
