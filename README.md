@@ -1,7 +1,7 @@
 # Oh-My-Karabiner
 by Dr Liang Jin
 
-<p align="center"><img src="/doc/image/davy_jones" alt="davy_jones"/></p>
+<p align="center"><img src="/doc/image/davy_jones.jpg" alt="davy_jones"/></p>
 <p align="center">
   <b><a href="#introduction">Introduction</a></b>
   |
