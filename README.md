@@ -1,7 +1,7 @@
 # Oh-My-Karabiner
 by Dr Liang Jin
 
-This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner/), a powerful and low-level keyboard manipulation tool. **Karabiner** is one of the main reasons I choose to stay with macOS while they are too many troubles to implement the same/similar layout in GNU/Linux distributions (I really tried...maybe later...).
+This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner/), a powerful and low-level keyboard manipulation tool. **Karabiner** is one of the main reasons I choose to stay with macOS while there are too many troubles to implement the same/similar layout in GNU/Linux distributions (I really tried...maybe later...).
 
 ## Quick Start
 
