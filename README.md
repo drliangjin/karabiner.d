@@ -1,7 +1,20 @@
 # Oh-My-Karabiner
 by Dr Liang Jin
 
-
+<p align="center"><img src="/doc/image/davy_jones" alt="davy_jones"/></p>
+<p align="center">
+  <b><a href="#introduction">Introduction</a></b>
+  |
+  <b><a href="#features">Features</a></b>
+  |
+  <b><a href="#installation">Installation</a></b>
+  |
+  <b><a href="#resources">Resources</a></b>
+  |
+  <b><a href="https://sites.google.com/site/drliangjin/">About Me</a></b>  
+  |
+  <b><a href="#features">FAQ</a></b>  
+</p>
 
 # Quick Start
 - Clone the repo:
@@ -33,5 +46,6 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 ## Unix-like
 
+# Installation
 # Resources
 # FAQ
