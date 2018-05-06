@@ -31,7 +31,7 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 ## Modifiers
 | From                         | To                          | Press Alone            | Device         |
 |------------------------------|-----------------------------|------------------------|----------------|
-| Left <kbd> Command </kbd>    | Left <kbd>Option/Alt </kbd> | -                      | Apple Keyboard |
+| Left <kbd>L Command </kbd>    | Left <kbd>Option/Alt </kbd> | -                      | Apple Keyboard |
 | Left <kbd> Option/Alt </kbd> | Left <kbd>Command </kbd>    | -                      | Apple Keyboard |
 | Right <kbd> Command</kbd>    | Right <kbd>Option/Alt </kbd>| -                      | Apple Keyboard |
 | Right <kbd> Option/Alt</kbd> | Right <kbd>Command </kbd>   | -                      | Apple Keyboard |
