@@ -29,15 +29,14 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 # Features
 ## Modifiers
-| From                         | To                          | Press Alone            | Device         |
-|------------------------------|-----------------------------|------------------------|----------------|
-| <kbd> Command </kbd>    | <kbd>Option/Alt </kbd> | -                      | Apple Keyboard |
-| <kbd> Option/Alt </kbd> | <kbd>Command </kbd>    | -                      | Apple Keyboard |
-| <kbd> Caps Lock</kbd>        | <kbd>Ctrl </kbd>       | <kbd>ESC  </kbd>       | -              |
-| <kbd> Enter </kbd>           | <kbd>Ctrl </kbd>      | <kbd>Enter </kbd>      | -              |
-| Left <kbd> Shift </kbd>      | Left <kbd>Shift </kbd>      | <kbd>(   </kbd>        | -              |
-| Right <kbd> Shift </kbd>     | Right <kbd>Shift </kbd>     | <kbd>) </kbd>          | -              |
-| <kbd> Ctrl </kbd>       | <kbd>Hyper </kbd>      | <kbd>Caps Lock </kbd>  | -              |
+| From                    | To                      | Press Alone                   | Device         |
+|-------------------------|-------------------------|-------------------------------|----------------|
+| <kbd> Command </kbd>    | <kbd> Option/Alt </kbd> | -                             | Apple Keyboard |
+| <kbd> Option/Alt </kbd> | <kbd> Command </kbd>    | -                             | Apple Keyboard |
+| <kbd> Caps Lock </kbd>  | <kbd> Ctrl </kbd>       | <kbd> ESC </kbd>              | -              |
+| <kbd> Enter </kbd>      | <kbd> Ctrl </kbd>       | <kbd> Enter </kbd>            | -              |
+| <kbd> Shift </kbd>      | <kbd> Shift </kbd>      | <kbd> ( </kbd> <kbd> ) </kbd> | -              |
+| <kbd> Ctrl </kbd>       | <kbd> Hyper </kbd>      | <kbd> Caps Lock </kbd>        | -              |
 
 ## Unix-like
 
