@@ -31,16 +31,16 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 ## Modifiers
 | From             | To               | Press Alone | Device         |
 |------------------|------------------|-------------|----------------|
-| Left Command     | Left Option/Alt  | -           | Apple Keyboard |
-| Left Option/Alt  | Left Command     | -           | Apple Keyboard |
-| Right Command    | Right Option/Alt | -           | Apple Keyboard |
-| Right Option/Alt | Right Command    |             | Apple Keyboard |
-| Caps Lock        | Left Ctrl        | ESC         | -              |
-| Enter            | Right Ctrl       | Enter       | -              |
-| Left Shift       | Left Shift       | (           | -              |
-| Right Shift      | Right Shift      | )           | -              |
-| Left Ctrl        | Left Hyper       | Caps Lock   | -              |
-| Right Ctrl       | Right Hyper      | Caps Lock   | -              |
+| Left <kbd> command </kbd>    | Left <kbd>Option/Alt </kbd> | -           | Apple Keyboard |
+| Left <kbd> option/alt </kbd> | Left <kbd>Command </kbd>    | -           | Apple Keyboard |
+| Right <kbd> command</kbd>    | Right <kbd>Option/Alt </kbd>| -           | Apple Keyboard |
+| Right <kbd> option/Alt</kbd> | Right <kbd>Command </kbd>   |             | Apple Keyboard |
+| <kbd> Caps Lock</kbd>        | Left <kbd>Ctrl </kbd>       | <kbd>ESC  </kbd>       | -              |
+| <kbd> Enter </kbd>           | Right <kbd>Ctrl </kbd>      | <kbd>Enter </kbd>      | -              |
+| Left <kbd> Shift </kbd>      | Left <kbd>Shift </kbd>      | <kbd>(   </kbd>        | -              |
+| Right <kbd> Shift </kbd>     | Right <kbd>Shift </kbd>     | <kbd>) </kbd>          | -              |
+| Left <kbd> Ctrl </kbd>       | Left <kbd>Hyper </kbd>      | <kbd>Caps Lock </kbd>  | -              |
+| Right <kbd> Ctrl </kbd>      | Right <kbd>Hyper </kbd>     | <kbd>Caps Lock </kbd>  | -              |
 
 ## Unix-like
 
