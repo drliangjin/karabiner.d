@@ -3,7 +3,7 @@ by Dr Liang Jin
 
 - - -
 
-<p align="center"><img src="/doc/image/davy_jones.jpg" alt="davy_jones"/></p>
+<p align="center"><img src="/assets/images/davy_jones.jpg" alt="davy_jones"/></p>
 <p align="center">
   <b><a href="#introduction">Introduction</a></b>
   |
