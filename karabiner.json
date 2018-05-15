@@ -1156,11 +1156,14 @@
 				    {
 					"type": "frontmost_application_if",
 					"bundle_identifiers": [
+<<<<<<< HEAD
 					    "^com\\.microsoft\\.Excel$",
 					    "^com\\.microsoft\\.Onenote$",
 					    "^com\\.microsoft\\.Outlook$",
 					    "^com\\.microsoft\\.Powerpoint$",
 					    "^com\\.microsoft\\.Word$",
+=======
+>>>>>>> 004830e1556c6fcdae7b8dde72310affddd3fdd6
 					    "^com\\.microsoft\\.rdc$",
 					    "^com\\.microsoft\\.rdc\\.mac$",
 					    "^com\\.microsoft\\.rdc\\.macos$",
@@ -1206,11 +1209,14 @@
 				    {
 					"type": "frontmost_application_if",
 					"bundle_identifiers": [
+<<<<<<< HEAD
 					    "^com\\.microsoft\\.Excel$",
 					    "^com\\.microsoft\\.Onenote$",
 					    "^com\\.microsoft\\.Outlook$",
 					    "^com\\.microsoft\\.Powerpoint$",
 					    "^com\\.microsoft\\.Word$",
+=======
+>>>>>>> 004830e1556c6fcdae7b8dde72310affddd3fdd6
 					    "^com\\.microsoft\\.rdc$",
 					    "^com\\.microsoft\\.rdc\\.mac$",
 					    "^com\\.microsoft\\.rdc\\.macos$",
