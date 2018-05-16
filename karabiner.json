@@ -22,7 +22,7 @@
 		"title": "Personal rules (@drliangjin)",
                 "rules": [
                     {
-                        "description": "Left Cmd to Left Alt, if Apple Keyboard",
+                        "description": "Swap Cmd and Alt, if Apple Keyboard",
                         "manipulators": [
                             {
 				"type": "basic",
@@ -49,14 +49,9 @@
 				        ]
 		                    }
 			        ]
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Left Alt to Left Cmd, if Apple Keyboard",
-                        "manipulators": [
+                            },
                             {
-				"type": "basic",
+                                "type": "basic",
                                 "from": {
                                     "key_code": "left_option",
                                     "modifiers": {
@@ -70,24 +65,19 @@
                                         "key_code": "left_command"
                                     }
                                 ],
-				"conditions": [
-				    {
-				        "type": "device_if",
-				        "identifiers": [
-				            {
-				                "vendor_id": 1452
-			                    }
-				        ]
-		                    }
-			        ]
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Right Cmd to Right Alt, if Apple Keyboard",
-                        "manipulators": [
+                                "conditions": [
+                                    {
+                                        "type": "device_if",
+                                        "identifiers": [
+                                            {
+                                                "vendor_id": 1452
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
                             {
-				"type": "basic",
+                                "type": "basic",
                                 "from": {
                                     "key_code": "right_command",
                                     "modifiers": {
@@ -101,24 +91,19 @@
                                         "key_code": "right_option"
                                     }
                                 ],
-				"conditions": [
-				    {
-				        "type": "device_if",
-				        "identifiers": [
-				            {
-				                "vendor_id": 1452
-			                    }
-				        ]
-		                    }
-			        ]
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Right Alt to Right Cmd, if Apple Keyboard",
-                        "manipulators": [
+                                "conditions": [
+                                    {
+                                        "type": "device_if",
+                                        "identifiers": [
+                                            {
+                                                "vendor_id": 1452
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
                             {
-				"type": "basic",
+                                "type": "basic",
                                 "from": {
                                     "key_code": "right_option",
                                     "modifiers": {
@@ -132,21 +117,21 @@
                                         "key_code": "right_command"
                                     }
                                 ],
-				"conditions": [
-				    {
-				        "type": "device_if",
-				        "identifiers": [
-				            {
-				                "vendor_id": 1452
-			                    }
-				        ]
-		                    }
-			        ]
+                                "conditions": [
+                                    {
+                                        "type": "device_if",
+                                        "identifiers": [
+                                            {
+                                                "vendor_id": 1452
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
-                        "description": "CapsLock to Left Ctrl, or ESC if pressed alone",
+                        "description": "Map CapsLock (Enter) to Ctrl, or ESC (Enter) if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",
@@ -169,14 +154,9 @@
                                         "key_code": "escape"
                                     }
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Enter to Right Ctrl, or Enter if pressed alone",
-                        "manipulators": [
+                            },
                             {
-				"type": "basic",
+                                "type": "basic",
                                 "from": {
                                     "key_code": "return_or_enter",
                                     "modifiers": {
@@ -188,7 +168,7 @@
                                 "to": [
                                     {
                                         "key_code": "right_control",
-					"lazy": true
+                                        "lazy": true
                                     }
                                 ],
                                 "to_if_alone": [
@@ -200,7 +180,7 @@
                         ]
                     },
                     {
-                        "description": "Left Shift to Left Shift, or opening parenthesis if pressed alone",
+                        "description": "Map Shift to Shift, or parenthesis if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -226,14 +206,9 @@
                                         ]
                                     }
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Right Shift to Right Shift, or closing parenthesis if pressed alone",
-                        "manipulators": [
+                            },
                             {
-				"type": "basic",				    
+                                "type": "basic",                                    
                                 "from": {
                                     "key_code": "right_shift",
                                     "modifiers": {
@@ -245,7 +220,7 @@
                                 "to": [
                                     {
                                         "key_code": "right_shift",
-					"lazy": true
+                                        "lazy": true
                                     }
                                 ],
                                 "to_if_alone": [
@@ -260,7 +235,7 @@
                         ]
                     },
                     {
-                        "description": "Left Ctrl to Left Hyper, or CapsLock if pressed alone",
+                        "description": "Map Ctrl to Hyper, or CapsLock if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -287,14 +262,9 @@
 					"key_code": "caps_lock"
 				    }
 				]
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Right Ctrl to Right Hyper, or CapsLock if pressed alone",
-                        "manipulators": [
+                            },
                             {
-				"type": "basic",				    
+                                "type": "basic",                                    
                                 "from": {
                                     "key_code": "right_control",
                                     "modifiers": {
@@ -306,21 +276,21 @@
                                 "to": [
                                     {
                                         "key_code": "right_shift",
-					"modifiers": [
-					    "right_command",
-					    "right_control",
-					    "right_option"
-					]
+                                        "modifiers": [
+                                            "right_command",
+                                            "right_control",
+                                            "right_option"
+                                        ]
                                     }
                                 ],
-				"to_if_alone": [
-				    {
-					"key_code": "caps_lock"
-				    }
-				]
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ]
                             }
                         ]
-                    },			
+                    },		
 		    {
 		        "description": "Emacs key bindings [C-x C-? keys]",
 		        "manipulators": [
