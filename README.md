@@ -48,19 +48,18 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 ## Unix-like
 
-| Key                              | From | To key_code    | To Emacs Function  |
+| Key                              | From | To (key_code)    | To (Emacs Function)  |
 |----------------------------------|------|----------------|-----------------|
 | <kbd> Ctrl </kbd> <kbd> g </kbd> | NA   | `esc`            | `keyboard-quit` |
 | <kbd> Ctrl </kbd> <kbd> d </kbd> | NA   | `delete_forward` | `delete-char`   |
-| <kbd> Ctrl </kbd> <kbd> d </kbd> | NA   | `delete_or_backspace`  |                 |
-| <kbd> Ctrl </kbd> <kbd> h </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> w </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> y </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> s </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> b </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> f </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> n </kbd> |      |                |                 |
-| <kbd> Ctrl </kbd> <kbd> p </kbd> |      |                |                 |
+| <kbd> Ctrl </kbd> <kbd> h </kbd> | NA   | `delete_or_backspace`  |                 |
+| <kbd> Ctrl </kbd> <kbd> w </kbd> |      | `cmd + c`               |                 |
+| <kbd> Ctrl </kbd> <kbd> y </kbd> |      | `cmd + v`               |                 |
+| <kbd> Ctrl </kbd> <kbd> s </kbd> |      | `cmd + f`               |                 |
+| <kbd> Ctrl </kbd> <kbd> b </kbd> |      | `left_arrow`               |                 |
+| <kbd> Ctrl </kbd> <kbd> f </kbd> |      | `right_arrow`               |                 |
+| <kbd> Ctrl </kbd> <kbd> n </kbd> |      | `down_arrow`               |                 |
+| <kbd> Ctrl </kbd> <kbd> p </kbd> |      | `up_arrow`               |                 |
 | <kbd> Ctrl </kbd> <kbd> a </kbd> |      | `home`         |    `move-begining-of-line`             |
 | <kbd> Ctrl </kbd> <kbd> e </kbd> |      | `end`            | `move-end-of-line`                |
 | <kbd> Ctrl </kbd> <kbd> v </kbd> |      | `page_down`      | `scroll-up-command`                |
