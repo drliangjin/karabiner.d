@@ -2,7 +2,7 @@
 
 # macOS only
 # echo "Karabiner-Elements is only available for macOS" &&
-# [[ "$(uname -s)" = "Darwin" ]] || exit 1
+[[ "$(uname -s)" = "Darwin" ]] || exit 1
 
 GH_USER=drliangjin
 GH_REPO=.karabiner.d
