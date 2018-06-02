@@ -131,7 +131,7 @@
                         ]
                     },
 		    {
-                        "description": "Map L_Cmd (R_Cmd) & L_Alt (R_Alt) to F17 (F18) & F19 (F20) if pressed alone",
+                        "description": "Map Cmd & Alt to F19 & F20 if pressed alone",
                         "manipulators": [
                             {
                                 "from": {
@@ -150,7 +150,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f19"
                                     }
                                 ],
                                 "type": "basic"
@@ -172,7 +172,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f18"
+                                        "key_code": "f19"
                                     }
                                 ],
                                 "type": "basic"
@@ -194,7 +194,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f19"
+                                        "key_code": "f20"
                                     }
                                 ],
                                 "type": "basic"
@@ -273,7 +273,7 @@
                         ]
                     },
                     {
-                        "description": "Map L_Shift (R_Shift) to Opening (Closing) Parenthesis if pressed alone",
+                        "description": "Map Shift to Shift, or Parenthesis if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -328,7 +328,7 @@
                         ]
                     },
                     {
-                        "description": "Map L_Ctrl (R_Ctrl) to L_Hyper (R_Ctrl), or F15 (F16) if pressed alone",
+                        "description": "Map Ctrl to Hyper, or F18 if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -343,6 +343,7 @@
                                 "to": [
                                     {
                                         "key_code": "left_shift",
+					"lazy": true,
 					"modifiers": [
 					    "left_command",
 					    "left_control",
@@ -352,7 +353,7 @@
                                 ],
 				"to_if_alone": [
 				    {
-					"key_code": "f15"
+					"key_code": "f18"
 				    }
 				]
                             },
@@ -369,6 +370,7 @@
                                 "to": [
                                     {
                                         "key_code": "right_shift",
+					"lazy": true,    
                                         "modifiers": [
                                             "right_command",
                                             "right_control",
@@ -378,7 +380,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f16"
+                                        "key_code": "f18"
                                     }
                                 ]
                             }
