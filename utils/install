@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -e
-
 # macOS only
 [[ "$(uname -s)" = "Darwin" ]] || echo "Karabiner-Elements is only available for macOS" && exit 1
 
