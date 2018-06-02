@@ -1,4 +1,4 @@
-# 🧙‍♂️ Oh-My-Karabiner
+# :musical_keyboard: Oh-My-Karabiner
 by Dr Liang Jin
 
 - - -
