@@ -3,7 +3,7 @@ by Dr Liang Jin
 
 ## :zap: Quick Start
 ```bash
-git clone https://github.com/drliangjin/oh-my-karabiner.git && ln -s ~/oh-my-karabiner ~/.config/karabiner
+git clone https://github.com/drliangjin/oh-my-karabiner.git && ln -sf ~/oh-my-karabiner ~/.config/karabiner
 ```
 - - -
 
