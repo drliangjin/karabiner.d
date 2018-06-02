@@ -1,15 +1,9 @@
 # :musical_keyboard: Karabiner-Elements Configuration
 by Dr Liang Jin
 
-Quick Start
-
-- Clone the repo:
+## :zap: Quick Start
 ```bash
-git clone https://github.com/drliangjin/oh-my-karabiner.git ~/oh-my-karabiner
-```
-- Symlink the configuration file:
-```bash
-ln -s ~/oh-my-karabiner ~/.config/karabiner
+git clone https://github.com/drliangjin/oh-my-karabiner.git ~/oh-my-karabiner && ln -s ~/oh-my-karabiner ~/.config/karabiner
 ```
 - - -
 
