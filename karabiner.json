@@ -134,6 +134,7 @@
                         "description": "Map Cmd & Alt to F19 & F20 if pressed alone",
                         "manipulators": [
                             {
+			        "type": "basic",
                                 "from": {
                                     "key_code": "left_command",
                                     "modifiers": {
@@ -152,10 +153,10 @@
                                     {
                                         "key_code": "f19"
                                     }
-                                ],
-                                "type": "basic"
+                                ]
                             },
                             {
+			        "type": "basic",
                                 "from": {
                                     "key_code": "right_command",
                                     "modifiers": {
@@ -174,10 +175,10 @@
                                     {
                                         "key_code": "f19"
                                     }
-                                ],
-                                "type": "basic"
+                                ]
                             },
                             {
+			        "type": "basic",
                                 "from": {
                                     "key_code": "left_option",
                                     "modifiers": {
@@ -196,10 +197,10 @@
                                     {
                                         "key_code": "f20"
                                     }
-                                ],
-                                "type": "basic"
+                                ]
                             },
                             {
+			        "type": "basic",
                                 "from": {
                                     "key_code": "right_option",
                                     "modifiers": {
@@ -218,8 +219,7 @@
                                     {
                                         "key_code": "f20"
                                     }
-                                ],
-                                "type": "basic"
+                                ]
                             }
                         ]
                     },
