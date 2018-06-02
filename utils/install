@@ -10,7 +10,6 @@ GH_DIR=~/${GH_REPO}
 GH_DIR_BACKUP=~/${GH_REPO}.backup
 LN_DIR=~/.config/karabiner
 
-#
 cmd_exists() {
   command -v $1 > /dev/null 2>&1
 }
@@ -33,12 +32,6 @@ if ! cmd_exists git; then
     echo " => unable to install git!"
     exit 1
   fi
-fi
-
-# backup
-if [[ -d ${GH_DIR} ]]; then
-  mv -R ${GH_DIR} ${GH_DIR_BACKUP}
-  echo "Existing ${GH_DIR} has been backed up to ${GH_DIR_BACKUP}"
 fi
 
 git clone --branch ${GH_BRANCH} https://github.com/${GH_USER}/${GH_REPO}.git && \
