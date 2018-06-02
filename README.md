@@ -22,13 +22,13 @@ git clone https://github.com/drliangjin/.karabiner.d.git && ln -sf ~/.karabiner.
 
 - - -
 
-# Introduction
+## :scroll: Introduction
 
 This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner/), a powerful and low-level keyboard manipulation tool. **Karabiner** is one of the main reasons I choose to stay with macOS while there are too many troubles to implement the same/similar layout in GNU/Linux distributions (I really tried...maybe later...).
 
-# Features
+## :label: Features
 
-## Modifiers
+### Modifiers
 
 | From                    | To                      | Press Alone                   | Device         |
 |-------------------------|-------------------------|-------------------------------|----------------|
@@ -39,14 +39,14 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Shift </kbd>      | <kbd> Shift </kbd>      | <kbd> ( </kbd> <kbd> ) </kbd> | -              |
 | <kbd> Ctrl </kbd>       | <kbd> Hyper </kbd>      | <kbd> Caps Lock </kbd>        | -              |
 
-## Switchers (mimic Ubuntu Unity)
+### Switchers (mimic Ubuntu Unity)
 
 
-## Launchers (mimic Ubuntu Unity)
+### Launchers (mimic Ubuntu Unity)
 
-## Dash (mimic Ubuntu Unity)
+### Dash (mimic Ubuntu Unity)
 
-## Editing (mimic Emacs)
+### Editing (mimic Emacs)
 
 | Key                              | From | To (key_code)    | Mimic (Emacs Function)  |
 |----------------------------------|--------|----------------|-----------------|
@@ -65,11 +65,17 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Ctrl </kbd> <kbd> v </kbd> |      | `page_down`      | `scroll-up-command`                |
 | <kbd> Ctrl </kbd> <kbd> i </kbd> |      | `tab`            | `forward-button`        |
 
-# Installation
+## :hammer_and_wrench: Installation
 ```bash
 brew cask install karabiner-elements
 ```
 
-# Resources
+## :loudspeaker: Updates
 
-# FAQ
+## :construction: Development
+
+## :medal_military: Acknowledgement
+
+## :open_book: Resources
+
+## :raising_hand_woman: FAQ
