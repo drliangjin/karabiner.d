@@ -3,7 +3,7 @@ by Dr Liang Jin
 
 ## :zap: Quick Start
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/drliangjin/.karabiner.d/master/utils/install)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/drliangjin/.karabiner.d/master/utils/install)"
 ```
 - - -
 
