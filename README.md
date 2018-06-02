@@ -46,7 +46,14 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Shift </kbd>      | <kbd> Shift </kbd>      | <kbd> ( </kbd> <kbd> ) </kbd> | -              |
 | <kbd> Ctrl </kbd>       | <kbd> Hyper </kbd>      | <kbd> Caps Lock </kbd>        | -              |
 
-## Unix-like
+## Switchers (mimic Ubuntu Unity)
+
+
+## Launchers (mimic Ubuntu Unity)
+
+## Dash (mimic Ubuntu Unity)
+
+## Editing (mimic Emacs)
 
 | Key                              | From | To (key_code)    | Mimic (Emacs Function)  |
 |----------------------------------|--------|----------------|-----------------|
