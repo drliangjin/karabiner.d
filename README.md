@@ -1,4 +1,4 @@
-# :musical_keyboard: Oh-My-Karabiner
+# :musical_keyboard: Karabiner-Elements Configuration
 by Dr Liang Jin
 
 - - -
