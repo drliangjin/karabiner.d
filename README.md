@@ -1,4 +1,4 @@
-# Oh-My-Karabiner
+# :wizard: Oh-My-Karabiner
 by Dr Liang Jin
 
 - - -
