@@ -3,7 +3,7 @@ by Dr Liang Jin
 
 ## :zap: Quick Start
 ```bash
-git clone https://github.com/drliangjin/.karabiner.d.git && ln -sf ~/.karabiner.d ~/.config/karabiner
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/drliangjin/.karabiner.d/master/utils/install)"
 ```
 - - -
 
