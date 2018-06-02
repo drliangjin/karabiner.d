@@ -10,8 +10,13 @@ GH_BRANCH=master
 GH_DIR=~/${GH_REPO}
 LN_DIR=~/.config/karabiner
 
+#
+cmd_exists() {
+  type $1 > /dev/null 2>&1
+}
+
 # Homebrew
-if ! $(which brew) > /dev/null 2>&1; then
+if [[ ! "$(cmd_exists brew)" ]]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   if [[ $? != 0 ]]; then
     echo "unable to install Homebrew!"
@@ -22,7 +27,7 @@ else
 fi
       
 # git
-if ! $(which git) > /dev/null 2>&1; then
+if [[ ! "$(cmd_exists git)" ]]; then
   brew install git
   if [[ $? != 0 ]]; then
     echo "unable to install git!"
