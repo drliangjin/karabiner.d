@@ -16,7 +16,7 @@ cmd_exists() {
 }
 
 # Homebrew
-if [[ ! "$(cmd_exists brew)" ]]; then
+if ! cmd_exists brew; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   if [[ $? != 0 ]]; then
     echo "unable to install Homebrew!"
@@ -27,7 +27,7 @@ else
 fi
       
 # git
-if [[ ! "$(cmd_exists git)" ]]; then
+if ! cmd_exists git; then
   brew install git
   if [[ $? != 0 ]]; then
     echo "unable to install git!"
