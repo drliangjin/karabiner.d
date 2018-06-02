@@ -273,7 +273,7 @@
                         ]
                     },
                     {
-                        "description": "Map Shift to Shift, or parenthesis if pressed alone",
+                        "description": "Map L_Shift (R_Shift) to Opening (Closing) Parenthesis if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -328,7 +328,7 @@
                         ]
                     },
                     {
-                        "description": "Map Ctrl to Hyper, or CapsLock if pressed alone",
+                        "description": "Map L_Ctrl (R_Ctrl) to L_Hyper (R_Ctrl), or F15 (F16) if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
@@ -352,7 +352,7 @@
                                 ],
 				"to_if_alone": [
 				    {
-					"key_code": "caps_lock"
+					"key_code": "f15"
 				    }
 				]
                             },
@@ -378,7 +378,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "caps_lock"
+                                        "key_code": "f16"
                                     }
                                 ]
                             }
