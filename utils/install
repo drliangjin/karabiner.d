@@ -24,8 +24,6 @@ if ! cmd_exists brew; then
     echo " => unable to install Homebrew!"
     exit 1
   fi
-else
-  brew update
 fi
       
 # git
