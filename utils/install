@@ -15,11 +15,13 @@ cmd_exists() {
   command -v $1 > /dev/null 2>&1
 }
 
+echo "Starting to deploy ${GH_REPO}..."
+
 # Homebrew
 if ! cmd_exists brew; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   if [[ $? != 0 ]]; then
-    echo "unable to install Homebrew!"
+    echo " => unable to install Homebrew!"
     exit 1
   fi
 else
@@ -30,7 +32,7 @@ fi
 if ! cmd_exists git; then
   brew install git
   if [[ $? != 0 ]]; then
-    echo "unable to install git!"
+    echo " => unable to install git!"
     exit 1
   fi
 fi
