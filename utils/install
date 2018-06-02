@@ -2,13 +2,14 @@
 
 set -e
 
+# macOS only
 [[ "$(uname -s)" = "Darwin" ]] || echo "Karabiner-Elements is only available for macOS" && exit 1
-
 
 GH_USER=drliangjin
 GH_REPO=.karabiner.d
 GH_BRANCH=master
-LN_DIR=.config/karabiner
+GH_DIR=~/${GH_REPO}
+LN_DIR=~/.config/karabiner
 
 # Homebrew
 if ! $(which brew) > /dev/null 2>&1; then
@@ -31,5 +32,5 @@ if ! $(which git) > /dev/null 2>&1; then
 fi
 
 git clone --branch ${GH_BRANCH} https://github.com/${GH_USER}/${GH_REPO}.git && \
-ln -sf ~/${GH_REPO} ~/${LN_DIR} && \
+ln -sf ${GH_DIR} ${LN_DIR} && \
 echo "${GH_REPO} has been successfully deployed."
