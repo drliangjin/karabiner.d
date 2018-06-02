@@ -1,1 +1,35 @@
+#!/usr/bin/env bash
 
+set -e
+
+[[ "$(uname -s)" = "Darwin" ]] || echo "Karabiner-Elements is only available for macOS" && exit 1
+
+
+GH_USER=drliangjin
+GH_REPO=.karabiner.d
+GH_BRANCH=master
+LN_DIR=.config/karabiner
+
+# Homebrew
+if ! $(which brew) > /dev/null 2>&1; then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  if [[ $? != 0 ]]; then
+    echo "unable to install Homebrew!"
+    exit 1
+  fi
+else
+  brew update
+fi
+      
+# git
+if ! $(which git) > /dev/null 2>&1; then
+  brew install git
+  if [[ $? != 0 ]]; then
+    echo "unable to install git!"
+    exit 1
+  fi
+fi
+
+git clone --branch ${GH_BRANCH} https://github.com/${GH_USER}/${GH_REPO}.git && \
+ln -sf ~/${GH_REPO} ~/${LN_DIR} && \
+echo "${GH_REPO} has been successfully deployed."
