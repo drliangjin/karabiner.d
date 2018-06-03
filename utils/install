@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # macOS only
-[[ "$(uname -s)" = "Darwin" ]] || exit 1
+[[ ! "$(uname -s)" = "Darwin" ]] && echo "Karabiner-Elements is only available for macOS!" && exit 1
 
 GH_USER=drliangjin
 GH_REPO=.karabiner.d
