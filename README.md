@@ -1,5 +1,5 @@
 # :musical_keyboard: Karabiner-Elements Configuration
-by Dr Liang Jin
+Created with :heart: by Dr Liang Jin
 
 ## :zap: Quick Start
 ```bash
