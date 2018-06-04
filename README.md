@@ -1,7 +1,7 @@
 # :musical_keyboard: Karabiner-Elements Configuration
-Created with :heart: by Dr Liang Jin
+*Created with* :heart: *by Dr Liang Jin*
 
-## :package: Quick Start
+## :gun: Quick Start
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/drliangjin/.karabiner.d/master/tools/install)"
 ```
