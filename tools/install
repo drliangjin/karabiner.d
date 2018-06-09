@@ -1,40 +1,117 @@
 #!/usr/bin/env bash
 
-# macOS only
-[[ ! "$(uname -s)" = "Darwin" ]] && echo "Karabiner-Elements is only available for macOS!" && exit 1
+# Exit immediately if a command exits with a non-zero status.
+set -e
 
-GH_USER=drliangjin
-GH_REPO=.karabiner.d
-GH_BRANCH=master
-GH_DIR=~/${GH_REPO}
+# macOS only
+[[ ! "$(uname -s)" = "Darwin" ]] && echo "Sorry, macOS only!" && return 1
+
+# Remote configuration repo
+GH_USER="drliangjin"
+GH_REPO=".karabiner.d"
+GH_BRANCH="master"
+
+# Local configuration dir
+CONFIG_DIR="$HOME/${GH_REPO}"
+BACKUP_DIR="$HOME/Backups"
 
 # symlink
-LN_DIR=~/.config/karabiner
+LINK_DIR="$HOME/.config/karabiner"
 
-cmd_exists() {
+# command checking
+function command_exists() {
   command -v $1 > /dev/null 2>&1
 }
 
-echo "Starting to deploy ${GH_REPO}..."
-
 # Homebrew
-if ! cmd_exists brew; then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  if [[ $? != 0 ]]; then
-    echo " => unable to install Homebrew!"
-    exit 1
+function install_homebrew() {
+  if ! command_exists brew; then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" > /dev/null 2>&1
+    if [[ $? != 0 ]]; then
+      echo " => unable to install Homebrew!"
+      return 1
+    fi
   fi
-fi
+}
       
-# git
-if ! cmd_exists git; then
-  brew install git
-  if [[ $? != 0 ]]; then
-    echo " => unable to install git!"
-    exit 1
+# brew install
+function brew_install() {
+  local formulae=$1
+  if [[ ! -z "${formulae}" ]]; then
+    echo "Installing $formulae..."
+    if ! brew list "${formulae}" > /dev/null 2>&1; then
+      brew install "${formulae}" > /dev/null 2>&1 
+      if [[ $? != 0 ]]; then
+        echo " => unable to install "${formulae}" !"
+        return 1
+      else
+        echo "Installing "${formulae}"...done "
+      fi
+    else
+      echo "Installing "${formulae}"...skipped "
+    fi
   fi
-fi
+}
 
-git clone --branch ${GH_BRANCH} https://github.com/${GH_USER}/${GH_REPO}.git && \
-ln -sf ${GH_DIR} ${LN_DIR} && \
-echo "${GH_REPO} has been successfully deployed."
+# cask install
+function cask_install() {
+  local formulae=$1
+  if [[ ! -z "${formulae}" ]]; then
+    echo "Installing "${formulae}"..."
+    if ! brew cask list "${formulae}" > /dev/null 2>&1; then
+      brew cask install $formulae > /dev/null 2>&1 
+      if [[ $? != 0 ]]; then
+        echo " => unable to install "${formulae}" !"
+        return 1
+      else
+        echo "Installing "${formulae}"...done "
+      fi
+    else
+      echo "Installing "${formulae}"...skipped "
+    fi
+  fi
+}
+
+# clone and link config
+function deploy_config() {
+  local config_name="${GH_REPO}"
+  local config_dir="${CONFIG_DIR}"
+  local backup_dir="${BACKUP_DIR}"
+  local target_dir="${LINK_DIR}"
+  
+  if [[ -d "${config_dir}" ]]; then
+    echo "Backing up existing "${config_name}"... "
+    if [[ ! -d "${backup_dir}" ]]; then
+      mkdir -p "${backup_dir}"
+    fi
+    mv "${config_dir}" "${backup_dir}" && \
+    echo "Backing up existing "${config_name}"...done "
+  fi
+  
+  echo "Cloning "${config_name}"..."
+  git clone -q -b ${GH_BRANCH} https://github.com/${GH_USER}/${GH_REPO}.git && \
+  if [[ $? != 0 ]]; then
+    echo " => unable to clone "${config_name}" !"
+    return 1
+  else
+    echo "Cloning "${config_name}"...done "
+  fi
+  
+  echo "Linking "${config_name}"..."
+  ln -sf "${config_dir}" "${target_dir}"
+  if [[ $? != 0 ]]; then
+    echo " => unable to link "${config_name}" !"
+    return 1
+  else
+    echo "Linking "${config_name}"...done "
+  fi
+  
+}
+
+function main() {
+  install_homebrew && \
+  cask_install karabiner-elements && \
+  deploy_config
+}
+
+main
