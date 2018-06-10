@@ -131,7 +131,7 @@
                         ]
                     },
 		    {
-                        "description": "Map Cmd & Alt to F19 & F20 if pressed alone",
+                        "description": "Map Cmd & Alt to F18 & F19 if pressed alone",
                         "manipulators": [
                             {
 			        "type": "basic",
@@ -328,7 +328,7 @@
                         ]
                     },
                     {
-                        "description": "Map Ctrl to Hyper, or F18 if pressed alone",
+                        "description": "Map Ctrl to Hyper, or F17 if pressed alone",
                         "manipulators": [
                             {
 				"type": "basic",				    
