@@ -74,7 +74,8 @@ brew cask install karabiner-elements
 
 ## :construction: Development
 ### TODO
-- [ ] implement `held_down`, see complex modifications [example](https://github.com/pqrs-org/KE-complex_modifications/blob/8f48a175795e1e737a6885068d729cb4586114a4/docs/json/example_halt.json)
+- [ ] implement `to_if_held_down` and `to_after_key_up`, see complex modifications [example](https://github.com/pqrs-org/KE-complex_modifications/blob/8f48a175795e1e737a6885068d729cb4586114a4/docs/json/example_halt.json)
+- [ ] implement virtual modifiers using `set_variable` and `variable_if`, see [virtual-modifier from pqrs.org](https://pqrs.org/osx/karabiner/json.html#virtual-modifier)
 ## :medal_military: Acknowledgement
 
 ## :open_book: Resources
