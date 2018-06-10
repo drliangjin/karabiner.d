@@ -73,7 +73,8 @@ brew cask install karabiner-elements
 ## :loudspeaker: Updates
 
 ## :construction: Development
-
+### TODO
+- [ ] implement `held_down`, see complex modifications [example](https://github.com/pqrs-org/KE-complex_modifications/blob/8f48a175795e1e737a6885068d729cb4586114a4/docs/json/example_halt.json)
 ## :medal_military: Acknowledgement
 
 ## :open_book: Resources
