@@ -32,9 +32,9 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 | From                    | To                      | Press Alone                   | Device         |
 |-------------------------|-------------------------|-------------------------------|----------------|
-| <kbd> Ctrl </kbd>       | <kbd> Hyper </kbd>      | <kbd> F18 </kbd>              | -              |
-| <kbd> Command </kbd>    | <kbd> Option/Alt </kbd> | <kbd> F19 </kbd>              | Apple Keyboard |
-| <kbd> Option/Alt </kbd> | <kbd> Command </kbd>    | <kbd> F20 </kbd>              | Apple Keyboard |
+| <kbd> Ctrl </kbd>       | <kbd> Hyper </kbd>      | <kbd> F17 </kbd>              | -              |
+| <kbd> Command </kbd>    | <kbd> Option/Alt </kbd> | <kbd> F18 </kbd>              | Apple Keyboard |
+| <kbd> Option/Alt </kbd> | <kbd> Command </kbd>    | <kbd> F19 </kbd>              | Apple Keyboard |
 | <kbd> Caps Lock </kbd>  | <kbd> Ctrl </kbd>       | <kbd> ESC </kbd>              | -              |
 | <kbd> Enter </kbd>      | <kbd> Ctrl </kbd>       | <kbd> Enter </kbd>            | -              |
 | <kbd> Shift </kbd>      | <kbd> Shift </kbd>      | <kbd> ( </kbd> <kbd> ) </kbd> | -              |
