@@ -48,23 +48,36 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 ### Editing (mimic Emacs)
 
-| Key                              | From | To (key_code)    | Mimic (Emacs Function)  |
+| Key                              | From   | To (key_code)  | Function  |
 |----------------------------------|--------|----------------|-----------------|
-| <kbd> Ctrl </kbd> <kbd> g </kbd> | `NA`   | `esc`            | `keyboard-quit` |
-| <kbd> Ctrl </kbd> <kbd> d </kbd> | `NA`   | `delete_forward` | `delete-char`   |
-| <kbd> Ctrl </kbd> <kbd> h </kbd> | `NA`  | `delete_or_backspace`  |                 |
-| <kbd> Ctrl </kbd> <kbd> w </kbd> |      | `cmd + c`               |                 |
-| <kbd> Ctrl </kbd> <kbd> y </kbd> |      | `cmd + v`               |                 |
-| <kbd> Ctrl </kbd> <kbd> s </kbd> |      | `cmd + f`               |                 |
-| <kbd> Ctrl </kbd> <kbd> b </kbd> |      | `left_arrow`               |                 |
-| <kbd> Ctrl </kbd> <kbd> f </kbd> |      | `right_arrow`               |                 |
-| <kbd> Ctrl </kbd> <kbd> n </kbd> |      | `down_arrow`               |                 |
-| <kbd> Ctrl </kbd> <kbd> p </kbd> |      | `up_arrow`               |                 |
-| <kbd> Ctrl </kbd> <kbd> a </kbd> |      | `home`         |    `move-begining-of-line`             |
-| <kbd> Ctrl </kbd> <kbd> e </kbd> |      | `end`            | `move-end-of-line`                |
-| <kbd> Ctrl </kbd> <kbd> v </kbd> |      | `page_down`      | `scroll-up-command`                |
-| <kbd> Ctrl </kbd> <kbd> i </kbd> |      | `tab`            | `forward-button`        |
-
+| <kbd> Ctrl </kbd> <kbd> g </kbd> | `NA`   | `esc`          | Cancel |
+| <kbd> Ctrl </kbd> <kbd> w </kbd> |        | `cmd + c`      | Copy                |
+| <kbd> Ctrl </kbd> <kbd> y </kbd> |        | `cmd + v`      | Paste                |
+| <kbd> Ctrl </kbd> <kbd> s </kbd> |        | `cmd + f`      | Find                |
+| <kbd> Ctrl </kbd> <kbd> d </kbd> | `NA`   | `delete_forward` | Forward Delete Char   |
+| <kbd> Ctrl </kbd> <kbd> h </kbd> | `NA`   | `delete_or_backspace`  | Backward Delete Char                |
+| <kbd> Ctrl </kbd> <kbd> k </kbd> | `NA`   | `delete_or_backspace`  | Forward Delete Line                |
+| <kbd> Ctrl </kbd> <kbd> u </kbd> | `NA`   | `delete_or_backspace`  | Backward Delete Line                |
+| <kbd> Ctrl </kbd> <kbd> f </kbd> |        | `right_arrow`          | Forward Move Char                |
+| <kbd> Ctrl </kbd> <kbd> b </kbd> |        | `left_arrow`           | Backward Move Char                |
+| <kbd> Ctrl </kbd> <kbd> n </kbd> |        | `down_arrow`           | Next Line                |
+| <kbd> Ctrl </kbd> <kbd> p </kbd> |        | `up_arrow`             | Previous Line                |
+| <kbd> Ctrl </kbd> <kbd> a </kbd> |        | `home`                 | Begining of Line             |
+| <kbd> Ctrl </kbd> <kbd> e </kbd> |        | `end`                  | End of Line                |
+| <kbd> Ctrl </kbd> <kbd> v </kbd> |        | `page_down`            | Next Page                |
+| <kbd> Ctrl </kbd> <kbd> i </kbd> |        | `tab`                  | Indent        |
+| <kbd> Option/Alt </kbd> <kbd> d </kbd> |        |                 | Forward Delete Word        |
+| <kbd> Option/Alt </kbd> <kbd> h </kbd> |        |                 | Backward Delete Word        |
+| <kbd> Option/Alt </kbd> <kbd> k </kbd> |        |                 | Forward Copy Line                |
+| <kbd> Option/Alt </kbd> <kbd> u </kbd> |        |                 | Backward Copy Line                |
+| <kbd> Option/Alt </kbd> <kbd> f </kbd> |        | `right_arrow`   | Forward Move Word               |
+| <kbd> Option/Alt </kbd> <kbd> b </kbd> |        | `left_arrow`    | Backward Move Word                |
+| <kbd> Option/Alt </kbd> <kbd> n </kbd> |        | `down_arrow`    | NA                |
+| <kbd> Option/Alt </kbd> <kbd> p </kbd> |        | `up_arrow`      | NA                |
+| <kbd> Option/Alt </kbd> <kbd> a </kbd> |        | `home`          | NA             |
+| <kbd> Option/Alt </kbd> <kbd> e </kbd> |        | `end`           | NA                |
+| <kbd> Option/Alt </kbd> <kbd> v </kbd> |        | `page_down`     | Previous Page                |
+| <kbd> Option/Alt </kbd> <kbd> i </kbd> |        | `tab`           | NA |
 ## :hammer_and_wrench: Installation
 ```bash
 brew cask install karabiner-elements
