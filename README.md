@@ -51,7 +51,7 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | Key                              | From   | To (key_code)  | Function  |
 |----------------------------------|--------|----------------|-----------------|
 | <kbd> Ctrl </kbd> <kbd> g </kbd> | `NA`   | `esc`          | Cancel |
-| <kbd> Ctrl </kbd> <kbd> w </kbd> |        | `cmd + c`      | Copy                |
+| <kbd> Ctrl </kbd> <kbd> w </kbd> |        | `cmd + x`      | Cut                |
 | <kbd> Ctrl </kbd> <kbd> y </kbd> |        | `cmd + v`      | Paste                |
 | <kbd> Ctrl </kbd> <kbd> s </kbd> |        | `cmd + f`      | Find                |
 | <kbd> Ctrl </kbd> <kbd> d </kbd> | `NA`   | `delete_forward` | Forward Delete Char   |
@@ -66,6 +66,7 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Ctrl </kbd> <kbd> e </kbd> |        | `end`                  | End of Line                |
 | <kbd> Ctrl </kbd> <kbd> v </kbd> |        | `page_down`            | Next Page                |
 | <kbd> Ctrl </kbd> <kbd> i </kbd> |        | `tab`                  | Indent        |
+| <kbd> Option/Alt </kbd> <kbd> w </kbd> |        | `cmd + c`       | Copy                |
 | <kbd> Option/Alt </kbd> <kbd> d </kbd> |        |                 | Forward Delete Word        |
 | <kbd> Option/Alt </kbd> <kbd> h </kbd> |        |                 | Backward Delete Word        |
 | <kbd> Option/Alt </kbd> <kbd> k </kbd> |        |                 | Forward Copy Line                |
