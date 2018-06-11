@@ -53,11 +53,12 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Ctrl </kbd> <kbd> g </kbd> | `NA`   | `esc`          | Cancel |
 | <kbd> Ctrl </kbd> <kbd> w </kbd> |        | `cmd + x`      | Cut                |
 | <kbd> Ctrl </kbd> <kbd> y </kbd> |        | `cmd + v`      | Paste                |
+| <kbd> Ctrl </kbd> <kbd> / </kbd> |        | `cmd + v`      | Undo                |
 | <kbd> Ctrl </kbd> <kbd> s </kbd> |        | `cmd + f`      | Find                |
 | <kbd> Ctrl </kbd> <kbd> d </kbd> | `NA`   | `delete_forward` | Forward Delete Char   |
 | <kbd> Ctrl </kbd> <kbd> h </kbd> | `NA`   | `delete_or_backspace`  | Backward Delete Char                |
-| <kbd> Ctrl </kbd> <kbd> k </kbd> | `NA`   | `delete_or_backspace`  | Forward Delete Line                |
-| <kbd> Ctrl </kbd> <kbd> u </kbd> | `NA`   | `delete_or_backspace`  | Backward Delete Line                |
+| <kbd> Ctrl </kbd> <kbd> k </kbd> | `NA`   | `delete_or_backspace`  | Forward Kill Line                |
+| <kbd> Ctrl </kbd> <kbd> u </kbd> | `NA`   | `delete_or_backspace`  | Backward Kill Line                |
 | <kbd> Ctrl </kbd> <kbd> f </kbd> |        | `right_arrow`          | Forward Move Char                |
 | <kbd> Ctrl </kbd> <kbd> b </kbd> |        | `left_arrow`           | Backward Move Char                |
 | <kbd> Ctrl </kbd> <kbd> n </kbd> |        | `down_arrow`           | Next Line                |
@@ -67,8 +68,9 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Ctrl </kbd> <kbd> v </kbd> |        | `page_down`            | Next Page                |
 | <kbd> Ctrl </kbd> <kbd> i </kbd> |        | `tab`                  | Indent        |
 | <kbd> Option/Alt </kbd> <kbd> w </kbd> |        | `cmd + c`       | Copy                |
-| <kbd> Option/Alt </kbd> <kbd> d </kbd> |        |                 | Forward Delete Word        |
-| <kbd> Option/Alt </kbd> <kbd> h </kbd> |        |                 | Backward Delete Word        |
+| <kbd> Option/Alt </kbd> <kbd> / </kbd> |        | `cmd + c`       | Redo                |
+| <kbd> Option/Alt </kbd> <kbd> d </kbd> |        |                 | Forward Kill Word        |
+| <kbd> Option/Alt </kbd> <kbd> h </kbd> |        |                 | Backward Kill Word        |
 | <kbd> Option/Alt </kbd> <kbd> k </kbd> |        |                 | Forward Copy Line                |
 | <kbd> Option/Alt </kbd> <kbd> u </kbd> |        |                 | Backward Copy Line                |
 | <kbd> Option/Alt </kbd> <kbd> f </kbd> |        | `right_arrow`   | Forward Move Word               |
@@ -88,10 +90,10 @@ brew cask install karabiner-elements
 
 ## :construction: Development
 ### TODO
-- [ ] macOS workspace shortcuts
-- [ ] macOS dock shortcuts
-- [ ] delete to kill (cut)
-- [ ] undo and redo
+- [ ] macOS workspace shortcuts (`ctrl left_arrow` & `ctrl right_arrow`, `ctrl #`)
+- [ ] macOS dock shortcuts (`ctrl F3`, then left_arrow or right_arrow to move, `return` to open an item)
+- [x] delete to kill (cut)
+- [x] undo and redo
 - [ ] implement `to_if_held_down` and `to_after_key_up`, see complex modifications [example](https://github.com/pqrs-org/KE-complex_modifications/blob/8f48a175795e1e737a6885068d729cb4586114a4/docs/json/example_halt.json)
 - [ ] implement virtual modifiers using `set_variable` and `variable_if`, see [virtual-modifier from pqrs.org](https://pqrs.org/osx/karabiner/json.html#virtual-modifier)
 ## :medal_military: Acknowledgement
