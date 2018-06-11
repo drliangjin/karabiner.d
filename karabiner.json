@@ -1038,7 +1038,7 @@
 			    {		    
                                 "type": "basic",
 				"from": {
-                                    "key_code": "/",
+                                    "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -2002,7 +2002,7 @@
 			    {
                                 "type": "basic",
 				"from": {
-                                    "key_code": "/",
+                                    "key_code": "slash",
                                     "modifiers": {
                                         "mandatory": [
                                             "option"
