@@ -1662,7 +1662,7 @@
                                     },
 				    {
                                         "key_code": "x",
-					"repeat": false
+					"repeat": false,
 					"modifiers": [
 					    "command"
 					]
@@ -1735,7 +1735,7 @@
                                     },
 				    {
                                         "key_code": "x",
-					"repeat": false
+					"repeat": false,
 					"modifiers": [
 					    "command"
 					]
