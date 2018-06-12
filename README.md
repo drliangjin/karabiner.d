@@ -71,7 +71,9 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Ctrl </kbd> <kbd> e </kbd> |        |                 | End of Line                |
 | <kbd> Ctrl </kbd> <kbd> v </kbd> |        |             | Next Page                |
 | <kbd> Ctrl </kbd> <kbd> i </kbd> |        |                   | Indent        |
+| <kbd> Option/Alt </kbd> <kbd> g </kbd> |        |        | Copy                |
 | <kbd> Option/Alt </kbd> <kbd> w </kbd> |        |        | Copy                |
+| <kbd> Option/Alt </kbd> <kbd> y </kbd> |        |        | Paste (history)                |
 | <kbd> Option/Alt </kbd> <kbd> / </kbd> |        |        | Redo                |
 | <kbd> Option/Alt </kbd> <kbd> d </kbd> |        |                 | Forward Kill Word        |
 | <kbd> Option/Alt </kbd> <kbd> h </kbd> |        |                 | Backward Kill Word        |
