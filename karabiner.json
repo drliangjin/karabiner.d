@@ -390,7 +390,7 @@
 			"description": "Switch Cmd+Tab and Option+Tab",
 			"manipulators": [
 			    {
-				"type": "basic"
+				"type": "basic",
 				"from": {
 				    "key_code": "tab",
             			    "modifiers": {
@@ -409,7 +409,7 @@
           			],
 			    },
 			    {
-				"type": "basic"
+				"type": "basic",
 				"from": {
 				    "key_code": "tab",
             			    "modifiers": {
