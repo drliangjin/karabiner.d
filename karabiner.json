@@ -385,7 +385,50 @@
                                 ]
                             }
                         ]
-                    },		
+                    },
+		    {
+			"description": "Switch Cmd+Tab and Option+Tab",
+			"manipulators": [
+			    {
+				"type": "basic"
+				"from": {
+				    "key_code": "tab",
+            			    "modifiers": {
+              				"mandatory": [
+					    "command"
+              				]
+				    }
+          			},
+          			"to": [
+				    {
+              				"key_code": "tab",
+              				"modifiers": [
+					    "option"
+              				]
+				    }
+          			],
+			    },
+			    {
+				"type": "basic"
+				"from": {
+				    "key_code": "tab",
+            			    "modifiers": {
+              				"mandatory": [
+					    "option"
+              				]
+				    }
+          			},
+          			"to": [
+				    {
+              				"key_code": "tab",
+              				"modifiers": [
+					    "command"
+              				]
+				    }
+          			]
+			    }
+      			]
+		    },
 		    {
 		        "description": "Emacs key bindings [C-x C-? keys]",
 		        "manipulators": [
