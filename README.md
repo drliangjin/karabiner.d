@@ -111,5 +111,6 @@ brew cask install karabiner-elements
 - [Cocoa Text System](http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html) by Jacob Rus
 - [A short article about emacs keybindings in macOS](https://jblevins.org/log/kbd)
 - [ttscoff's KeyBindings](https://github.com/ttscoff/KeyBindings)
+- [Emacs Keybindings Everywhere in Mac OS X](http://lelf.lu/posts/emacs-keybindings-mac-os-x.html) by lelf
 
 ## :raising_hand_woman: FAQ
