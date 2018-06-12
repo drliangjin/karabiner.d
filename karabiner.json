@@ -429,6 +429,53 @@
 			    }
       			]
 		    },
+					    {
+			"description": "Switch Shift+Cmd+Tab and Shift+Option+Tab",
+			"manipulators": [
+			    {
+				"type": "basic",
+				"from": {
+				    "key_code": "tab",
+            			    "modifiers": {
+              				"mandatory": [
+					    "command",
+					    "shift"
+              				]
+				    }
+          			},
+          			"to": [
+				    {
+              				"key_code": "tab",
+              				"modifiers": [
+					    "option",
+					    "shift"
+              				]
+				    }
+          			]
+			    },
+			    {
+				"type": "basic",
+				"from": {
+				    "key_code": "tab",
+            			    "modifiers": {
+              				"mandatory": [
+					    "option",
+					    "shift"
+              				]
+				    }
+          			},
+          			"to": [
+				    {
+              				"key_code": "tab",
+              				"modifiers": [
+					    "command",
+					    "shift"
+              				]
+				    }
+          			]
+			    }
+      			]
+		    },
 		    {
 		        "description": "Emacs key bindings [C-x C-? keys]",
 		        "manipulators": [
