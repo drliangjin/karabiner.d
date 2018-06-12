@@ -41,6 +41,10 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 ### Switchers (mimic Ubuntu Unity)
 
+| From                    | To                      | Press Alone                   | Device         |
+|-------------------------|-------------------------|-------------------------------|----------------|
+| <kbd> Command </kbd> `+` <kbd> Tab </kbd>   | <kbd> Option/Alt </kbd> `+` <kbd> Tab </kbd> | - | - |
+| <kbd> Shift </kbd> `+` <kbd> Command </kbd> `+` <kbd> Tab </kbd>   | <kbd> Shift </kbd> `+` <kbd> Option/Alt </kbd> `+` <kbd> Tab </kbd> | - | - |
 
 ### Launchers (mimic Ubuntu Unity)
 
