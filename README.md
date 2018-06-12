@@ -107,5 +107,7 @@ brew cask install karabiner-elements
 ## :medal_military: Acknowledgement
 
 ## :open_book: Resources
+- [A short article about emacs keybindings in macOS](https://jblevins.org/log/kbd)
+- [ttscoff's KeyBindings](https://github.com/ttscoff/KeyBindings)
 
 ## :raising_hand_woman: FAQ
