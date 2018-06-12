@@ -54,37 +54,37 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 
 | Key                              | From   | To (key_code)  | Function  |
 |----------------------------------|--------|----------------|-----------------|
-| <kbd> Ctrl </kbd> <kbd> g </kbd> | `NA`   | `esc`          | Cancel |
-| <kbd> Ctrl </kbd> <kbd> w </kbd> |        | `cmd + x`      | Cut                |
-| <kbd> Ctrl </kbd> <kbd> y </kbd> |        | `cmd + v`      | Paste                |
-| <kbd> Ctrl </kbd> <kbd> / </kbd> |        | `cmd + v`      | Undo                |
-| <kbd> Ctrl </kbd> <kbd> s </kbd> |        | `cmd + f`      | Find                |
-| <kbd> Ctrl </kbd> <kbd> d </kbd> | `NA`   | `delete_forward` | Forward Delete Char   |
-| <kbd> Ctrl </kbd> <kbd> h </kbd> | `NA`   | `delete_or_backspace`  | Backward Delete Char                |
-| <kbd> Ctrl </kbd> <kbd> k </kbd> | `NA`   | `delete_or_backspace`  | Forward Kill Line                |
-| <kbd> Ctrl </kbd> <kbd> u </kbd> | `NA`   | `delete_or_backspace`  | Backward Kill Line                |
-| <kbd> Ctrl </kbd> <kbd> f </kbd> |        | `right_arrow`          | Forward Move Char                |
-| <kbd> Ctrl </kbd> <kbd> b </kbd> |        | `left_arrow`           | Backward Move Char                |
-| <kbd> Ctrl </kbd> <kbd> n </kbd> |        | `down_arrow`           | Next Line                |
-| <kbd> Ctrl </kbd> <kbd> p </kbd> |        | `up_arrow`             | Previous Line                |
-| <kbd> Ctrl </kbd> <kbd> a </kbd> |        | `home`                 | Begining of Line             |
-| <kbd> Ctrl </kbd> <kbd> e </kbd> |        | `end`                  | End of Line                |
-| <kbd> Ctrl </kbd> <kbd> v </kbd> |        | `page_down`            | Next Page                |
-| <kbd> Ctrl </kbd> <kbd> i </kbd> |        | `tab`                  | Indent        |
-| <kbd> Option/Alt </kbd> <kbd> w </kbd> |        | `cmd + c`       | Copy                |
-| <kbd> Option/Alt </kbd> <kbd> / </kbd> |        | `cmd + c`       | Redo                |
+| <kbd> Ctrl </kbd> <kbd> g </kbd> | `NA`   |  | Cancel |
+| <kbd> Ctrl </kbd> <kbd> w </kbd> |        |       | Cut                |
+| <kbd> Ctrl </kbd> <kbd> y </kbd> |        |       | Paste                |
+| <kbd> Ctrl </kbd> <kbd> / </kbd> |        |       | Undo                |
+| <kbd> Ctrl </kbd> <kbd> s </kbd> |        |      | Find                |
+| <kbd> Ctrl </kbd> <kbd> d </kbd> | `NA`   |  | Forward Delete Char   |
+| <kbd> Ctrl </kbd> <kbd> h </kbd> | `NA`   |   | Backward Delete Char                |
+| <kbd> Ctrl </kbd> <kbd> k </kbd> | `NA`   |   | Forward Kill Line                |
+| <kbd> Ctrl </kbd> <kbd> u </kbd> | `NA`   |  | Backward Kill Line                |
+| <kbd> Ctrl </kbd> <kbd> f </kbd> |        |          | Forward Move Char                |
+| <kbd> Ctrl </kbd> <kbd> b </kbd> |        |           | Backward Move Char                |
+| <kbd> Ctrl </kbd> <kbd> n </kbd> |        |           | Next Line                |
+| <kbd> Ctrl </kbd> <kbd> p </kbd> |        |           | Previous Line                |
+| <kbd> Ctrl </kbd> <kbd> a </kbd> |        |               | Begining of Line             |
+| <kbd> Ctrl </kbd> <kbd> e </kbd> |        |                 | End of Line                |
+| <kbd> Ctrl </kbd> <kbd> v </kbd> |        |             | Next Page                |
+| <kbd> Ctrl </kbd> <kbd> i </kbd> |        |                   | Indent        |
+| <kbd> Option/Alt </kbd> <kbd> w </kbd> |        |        | Copy                |
+| <kbd> Option/Alt </kbd> <kbd> / </kbd> |        |        | Redo                |
 | <kbd> Option/Alt </kbd> <kbd> d </kbd> |        |                 | Forward Kill Word        |
 | <kbd> Option/Alt </kbd> <kbd> h </kbd> |        |                 | Backward Kill Word        |
 | <kbd> Option/Alt </kbd> <kbd> k </kbd> |        |                 | Forward Copy Line                |
 | <kbd> Option/Alt </kbd> <kbd> u </kbd> |        |                 | Backward Copy Line                |
-| <kbd> Option/Alt </kbd> <kbd> f </kbd> |        | `right_arrow`   | Forward Move Word               |
-| <kbd> Option/Alt </kbd> <kbd> b </kbd> |        | `left_arrow`    | Backward Move Word                |
-| <kbd> Option/Alt </kbd> <kbd> n </kbd> |        | `down_arrow`    | NA                |
-| <kbd> Option/Alt </kbd> <kbd> p </kbd> |        | `up_arrow`      | NA                |
-| <kbd> Option/Alt </kbd> <kbd> a </kbd> |        | `home`          | NA             |
-| <kbd> Option/Alt </kbd> <kbd> e </kbd> |        | `end`           | NA                |
-| <kbd> Option/Alt </kbd> <kbd> v </kbd> |        | `page_down`     | Previous Page                |
-| <kbd> Option/Alt </kbd> <kbd> i </kbd> |        | `tab`           | NA |
+| <kbd> Option/Alt </kbd> <kbd> f </kbd> |        |    | Forward Move Word               |
+| <kbd> Option/Alt </kbd> <kbd> b </kbd> |        |    | Backward Move Word                |
+| <kbd> Option/Alt </kbd> <kbd> n </kbd> |        |    | NA                |
+| <kbd> Option/Alt </kbd> <kbd> p </kbd> |        |      | NA                |
+| <kbd> Option/Alt </kbd> <kbd> a </kbd> |        |           | NA             |
+| <kbd> Option/Alt </kbd> <kbd> e </kbd> |        |           | NA                |
+| <kbd> Option/Alt </kbd> <kbd> v </kbd> |        |      | Previous Page                |
+| <kbd> Option/Alt </kbd> <kbd> i </kbd> |        |            | NA |
 ## :hammer_and_wrench: Installation
 ```bash
 brew cask install karabiner-elements
@@ -96,8 +96,9 @@ brew cask install karabiner-elements
 ### TODO
 - [ ] macOS workspace shortcuts (`ctrl left_arrow` & `ctrl right_arrow`, `ctrl #`)
 - [ ] macOS dock shortcuts (`ctrl F3`, then left_arrow or right_arrow to move, `return` to open an item)
-- [x] delete to kill (cut)
-- [x] undo and redo
+- [ ] Cycle clipboard history using <kbd> Option/Alt </kbd> + <kbd> y </kbd>
+- [x] delete to kill/cut (select text and cut, for words and lines)
+- [x] `undo` (<kbd> Ctrl </kbd> + <kbd> / </kbd> ) and redo (<kbd> Option/Alt </kbd> + <kbd> / </kbd> )
 - [ ] implement `to_if_held_down` and `to_after_key_up`, see complex modifications [example](https://github.com/pqrs-org/KE-complex_modifications/blob/8f48a175795e1e737a6885068d729cb4586114a4/docs/json/example_halt.json)
 - [ ] implement virtual modifiers using `set_variable` and `variable_if`, see [virtual-modifier from pqrs.org](https://pqrs.org/osx/karabiner/json.html#virtual-modifier)
 ## :medal_military: Acknowledgement
