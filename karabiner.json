@@ -426,10 +426,29 @@
               				]
 				    }
           			]
+			    },
+			    {
+				"type": "basic",
+				"from": {
+				    "key_code": "tab",
+            			    "modifiers": {
+              				"mandatory": [
+					    "command"
+              				]
+				    }
+          			},
+          			"to": [
+				    {
+              				"key_code": "f3",
+              				"modifiers": [
+					    "control"
+              				]
+				    }
+          			]
 			    }
       			]
 		    },
-					    {
+		    {
 			"description": "Switch Shift+Cmd+Tab and Shift+Option+Tab",
 			"manipulators": [
 			    {
