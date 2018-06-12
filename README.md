@@ -98,6 +98,7 @@ brew cask install karabiner-elements
 ### TODO
 - [ ] macOS workspace shortcuts (`ctrl left_arrow` & `ctrl right_arrow`, `ctrl #`)
 - [ ] macOS dock shortcuts (`ctrl F3`, then left_arrow or right_arrow to move, `return` to open an item)
+- [ ] implement <kbd> Tab </kbd> as a modifier when hold down
 - [ ] <kbd> Ctrl </kbd> + <kbd> j </kbd> and <kbd> Ctrl </kbd> + <kbd> m </kbd>
 - [ ] Cycle clipboard history using <kbd> Option/Alt </kbd> + <kbd> y </kbd>
 - [x] delete to kill/cut (select text and cut, for words and lines)
