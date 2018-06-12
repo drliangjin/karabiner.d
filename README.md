@@ -108,6 +108,7 @@ brew cask install karabiner-elements
 
 ## :open_book: Resources
 - [Text System Defaults and Key Bindings](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/EventOverview/TextDefaultsBindings/TextDefaultsBindings.html#//apple_ref/doc/uid/20000468-CJBDEADF) from Apple Developer
+- [Cocoa Text System](http://www.hcs.harvard.edu/~jrus/site/cocoa-text.html) by Jacob Rus
 - [A short article about emacs keybindings in macOS](https://jblevins.org/log/kbd)
 - [ttscoff's KeyBindings](https://github.com/ttscoff/KeyBindings)
 
