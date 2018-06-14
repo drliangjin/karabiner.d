@@ -1,4 +1,4 @@
-# :musical_keyboard: Karabiner-Elements Configuration
+# :musical_keyboard: Karabiner-Elements Configuration :musical_keyboard:
 *Created with* :heart: *by Dr Liang Jin*
 
 ## :rocket: Quick Start
@@ -116,5 +116,6 @@ brew cask install karabiner-elements
 - [ttscoff's KeyBindings](https://github.com/ttscoff/KeyBindings)
 - [Emacs Keybindings Everywhere in Mac OS X](http://lelf.lu/posts/emacs-keybindings-mac-os-x.html) by lelf
 - [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
+- [Mac OS X: Keybinding DefaultKeyBinding.dict Problems](http://xahlee.info/kbd/osx_keybinding_problems.html) by Xah Lee
 
 ## :raising_hand_woman: FAQ
