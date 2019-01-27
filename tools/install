@@ -8,7 +8,7 @@ set -e
 
 # Remote configuration repo
 GH_USER="drliangjin"
-GH_REPO=".karabiner.d"
+GH_REPO="mini-karabiner"
 GH_BRANCH="master"
 
 # Local configuration dir
