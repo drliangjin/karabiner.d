@@ -16,7 +16,7 @@ CONFIG_DIR="$HOME/${GH_REPO}"
 BACKUP_DIR="$HOME/Backups"
 
 # symlink
-LINK_DIR="$HOME/.config"
+LINK_DIR="$HOME/.config/karabiner"
 
 # command checking
 function command_exists() {
