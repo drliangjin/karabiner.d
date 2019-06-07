@@ -3,7 +3,7 @@
 
 ## :rocket: Quick Start
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/drliangjin/.karabiner.d/master/tools/install)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/drliangjin/karabiner.d/master/tools/install)"
 ```
 - - -
 
