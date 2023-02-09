@@ -87,6 +87,12 @@ This is my configuration for [Karabiner-Elements](https://pqrs.org/osx/karabiner
 | <kbd> Option/Alt </kbd> <kbd> e </kbd> |        |           | NA                |
 | <kbd> Option/Alt </kbd> <kbd> v </kbd> |        |      | Previous Page                |
 | <kbd> Option/Alt </kbd> <kbd> i </kbd> |        |            | NA |
+
+### File (mimic Emacs)
+| From                    | To                      | Press Alone                   | Device         |
+|-------------------------|-------------------------|-------------------------------|----------------|
+| <kbd> Ctrl </kbd> <kbd> z </kbd>`+` <kbd>  </kbd>   | <kbd> Option/Alt </kbd> `+` <kbd> Tab </kbd> | - | - |
+| <kbd> Ctrl </kbd> <kbd> z </kbd>`+` <kbd> Tab </kbd>   | <kbd> Option/Alt </kbd> `+` <kbd> Tab </kbd> | - | - |
 ## :hammer_and_wrench: Installation
 ```bash
 brew cask install karabiner-elements
