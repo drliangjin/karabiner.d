@@ -99,7 +99,7 @@ function deploy_config() {
   
   echo "Linking "${config_name}"..."
   [[ -d "$HOME/.config" ]] || mkdir "$HOME/.config"
-  [[ -d "${target_dir}" ]] && rm -p "${target_dir}"
+  [[ -d "${target_dir}" ]] && rm -rf "${target_dir}"
   ln -sf "${config_dir}" "${target_dir}"
   if [[ $? != 0 ]]; then
     echo " => unable to link "${config_name}" !"
