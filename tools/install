@@ -59,7 +59,7 @@ function cask_install() {
   if [[ ! -z "${formulae}" ]]; then
     echo "Installing "${formulae}"..."
     if ! brew cask list "${formulae}" > /dev/null 2>&1; then
-      brew cask install $formulae > /dev/null 2>&1 
+      brew install --cask $formulae > /dev/null 2>&1 
       if [[ $? != 0 ]]; then
         echo " => unable to install "${formulae}" !"
         return 1
